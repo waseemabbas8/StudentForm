@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Student Form</string>
+
+    <string name="next_button">Go To Next Step</string>
+    <string name="finish_button">Finish</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="phone">Mobile No</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="subject_eng">English</string>
+    <string name="subject_math">Mathematics</string>
+    <string name="subject_comp">Computer</string>
+</resources>
