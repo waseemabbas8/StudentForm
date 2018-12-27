@@ -8,12 +8,15 @@
         android:background="@android:color/white"
         tools:context=".activities.MainActivity">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_avatar"
             android:layout_centerHorizontal="true"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/logo"/>
+            android:layout_marginTop="10dp"
+            android:elevation="1dp"
+            android:background="@drawable/diagonallayout_circle"
+            android:src="@drawable/avatar"/>
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -25,10 +28,12 @@
         <EditText
                 android:id="@+id/et_email"
                 android:hint="@string/email"
+                android:inputType="textEmailAddress"
                 style="@style/InputField"/>
         <EditText
                 android:id="@+id/et_mobile"
                 android:hint="@string/phone"
+                android:inputType="phone"
                 style="@style/InputField"/>
         <TextView
                 android:text="@string/subject"

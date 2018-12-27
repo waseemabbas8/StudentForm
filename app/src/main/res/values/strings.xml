@@ -12,7 +12,7 @@
     <string name="gender_female">Female</string>
     <string name="phone">Mobile No</string>
     <string name="email">Email</string>
-    <string name="subject">Subject</string>
+    <string name="subject">Subjects</string>
     <string name="subject_eng">English</string>
     <string name="subject_math">Mathematics</string>
     <string name="subject_comp">Computer</string>
